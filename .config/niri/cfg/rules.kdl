@@ -12,7 +12,7 @@
     }
 
     window-rule {
-      match at-startup=true app-id=r#"^brave-.*-Default$"# title="WhatsApp Web"
+      match at-startup=true app-id=r#"^chrome-.*-Default$"# title="WhatsApp Web"
       open-on-workspace "chat"
       open-focused false
     }
