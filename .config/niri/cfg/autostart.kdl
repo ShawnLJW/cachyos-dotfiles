@@ -4,5 +4,5 @@
     spawn-sh-at-startup "qs -c noctalia-shell"
     spawn-at-startup "fcitx5" "-d"
     spawn-at-startup "zen-browser"
-    spawn-at-startup "brave" "--app-id=hnpfjngllnobngcgfapefoaidbinmjnm"
+    spawn-at-startup "helium-browser" "--app-id=hnpfjngllnobngcgfapefoaidbinmjnm"
     spawn-at-startup "Telegram"
