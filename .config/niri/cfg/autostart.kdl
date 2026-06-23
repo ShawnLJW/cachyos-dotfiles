@@ -4,5 +4,5 @@
     spawn-sh-at-startup "qs -c noctalia-shell"
     spawn-at-startup "fcitx5" "-d"
     spawn-at-startup "zen-browser"
-    spawn-at-startup "helium-browser" "--app-id=hnpfjngllnobngcgfapefoaidbinmjnm"
+    spawn-at-startup "sh" "-c" "until gdbus call --session --dest org.freedesktop.DBus --object-path /org/freedesktop/DBus --method org.freedesktop.DBus.NameHasOwner org.freedesktop.Notifications 2>/dev/null | grep -q true; do sleep 0.3; done; helium-browser --app-id=hnpfjngllnobngcgfapefoaidbinmjnm"
     spawn-at-startup "Telegram"
